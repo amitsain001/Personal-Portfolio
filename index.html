@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84ad1dec4d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <!-- Header Construction -->
+
+    <div id="header">
+
+        <div class="container">
+
+            <!-- Navbar Construction -->
+
+            <nav>
+                <h3 class="logofull"><b class="logo">MY</b> PORTFOLIO</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav> 
+
+            <!-- Navbar created successfully 👍 -->
+
+            <!-- Header Text  -->
+
+            <div class="header-txt">
+
+                <p id="tagline"><span>Turning ideas into Interactive realities.</span></p>
+                <p id="im">I'm <span id="text"></span></p> 
+                <h1>Amit Sain</h1>
+                <p id="desc">Creative and Passionate about clean code, modern design, and delivering seamless digital experiences that drive engagement and business growth.</p>
+
+                <div class="social-icons">
+
+                        <a class="insta" href="https://www.instagram.com/acousticamit_?igsh=YnBsOXVnaW9tcjZy"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="linkedin" href="https://linkedin.com/in/amit-sain-281a02309"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="whatsapp" href="https://wa.me/9610841282" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="fb" href="https://www.facebook.com/share/1FNBD2vuVa/"><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+
+                <div class="neon-frame">
+                    <img src="/images/background.jpg" alt="Profile Picture">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Header section Created Successfully 👍👍👍-->
+
+    <!-- About Section Creation  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-img">
+                    <img src="images/image2.jpg">
+                </div>
+                <div class="about-col2">
+
+                    <h1 class = "sub-title"><b>A</b>bout <b>M</b>e</h1>
+
+                    <p>Hello ! I'm Amit Sain 
+                    <br> I was born in village Chhapur (Raj.) and broughtup in city Bhiwadi ( Raj )    
+                    <br>As my profession I am a Full Stack Web Developer.
+                    I am very passionate & confident about my work. My biggest strength is my dedication and my +ve attitude towards my work and my confident behaviour.
+                    I am inspired to be a part of IT sector and to upkills my knowledge in my profession.
+                    My hobbies are playing Badminton, Volleyball & Cricket.
+                    In my free time I used to listen music and also with that I love to Sing and playing Guitar
+                    Also I love dancing as I performed in my School & College events.
+                    </p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('Experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('Education')">Education</div>
+                    </div>
+
+                    <!-- Skills Section -->
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Language :</span><br>JAVA, JavaScript, Python, C++</li>
+                            <li><span>DataBase :</span><br>MongoDB, SQL</li>
+                            <li><span>Web Technologies :</span><br>HTML5, CSS3, JavaScript, MongoDB, Node.js, React.js, Express.js</li>
+                            <li><span>Frameworks :</span><br>React.js, Bootstrap</li>
+                            <li><span>Version Control :</span><br>GIT & GITHUB</li>
+                            <li><span>Other :</span><br>Team Management, Communication, Leadership</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Section -->
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Summer Internship :</span><br>Company: CodTech Solution Pvt.Ltd<br>Medium: online virtual<br>Role: java programmer<br>duration: 2 months ( june 2025 to Aug. 2025) </li>
+                            <li><span>Hands-on-projects</span><br>Simon Says Game<br>Airbnb ( Full Stack Deployed Project )<br>Portfolio ( Fully Responsive ) </li>
+                        </ul>
+                    </div>
+
+                    <!-- Education Section -->
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span><b>10th</b> :</span><br>Suraj School Bhiwadi<br>Passing Year: 2020<br>Percentage : 90%</li>
+                            <li><span><b>12th</b> :</span><br>Suraj School Bhiwadi<br>Passing Year: 2022<br>Percentage : 90.2%</li>
+                            <li><span><b>College :</b></span><br>Laxmi Devi Institute of Engineering and Technology<br>Stream : Computer Science Engineering<br>Passing Year: 2026</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section Created Successfully 👍👍👍👍👍-->
+
+    <!-- Services Section Formation -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class = "sub-title"><b>M</b>y <b>S</b>ervices</h1>
+            <div class="service-list">
+
+                <div>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Full-Stack Web Development</h2>
+                    <p>End-to-end web application development using MongoDB, Express.js, React.js, and Node.js.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                 <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Responsive, interactive, and modern user interface design with React.js and latest UI libraries.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Design & Management</h2>
+                    <p>Efficient schema design, data modeling, and management using MongoDB (NoSQL)</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                 <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Performance Optimization</h2>
+                    <p>Code optimization, caching, and performance tuning for faster load times and better scalability.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                 <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Version Control & Collaboration</h2>
+                    <p>Git/GitHub based source control, collaborative development, and code management.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                 <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Responsive Web Design</h2>
+                    <p>Mobile-friendly design ensuring seamless experience across devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section Created Successfully 👍👍👍👍 -->
+
+    <!-- Project Section Formation -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class = "sub-title"><b>P</b>rojects</h1>
+            <div class="worklist">
+
+                <div class="work">
+                    <img src="images/airbnb2.jpg">
+
+                    <div class="layer">
+                        
+                        <h3>Airbnb</h3>
+                        <p>Airbnb-inspired platform allowing users to list properties, search accommodations, book stays, and manage bookings.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+
+                <div class="work">
+                    <img src="images/work2.jpg">
+
+                    <div class="layer">
+                        
+                        <h3>Portfolio</h3>
+                        <p>Personal portfolio website showcasing projects, skills, experience, certifications, and providing contact information for opportunities.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/game6.webp">
+
+                    <div class="layer">
+                        
+                        <h3>Simon Says Game</h3>
+                        <p>Interactive Simon Says game testing memory skills with colorful sequences, increasing difficulty, and responsive design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a> 
+        </div>
+    </div>
+
+    <!-- Project Section Created Successfully 👍👍👍👍 -->
+
+    <!-- Contact section Creation -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>amit2976297@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9610841282</p>
+                    <a href="#" class="btn cvbtn">Download CV</a>
+                    <a href="#" class="btn cvbtn resume">See Resume</a>
+
+                </div>
+
+                <div class="contact-right">
+
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn cvbtn">Submit</button>
+                        </form>
+                        <span id="msg2"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section Created Successfully 👍👍👍👍 -->
+
+        <!-- Footer -->
+
+        <div class="copyright">
+            <p>Copyright © 2025 Amit Sain. All Rights Reserved<br>Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+
+    </div>
+
+    <!-- JAVA SCRIPT CODE -->
+
+<script>
+    // Tab Links Functioning 
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for(tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");       // when click on active links then lighted underline comes 
+    document.getElementById(tabname).classList.add("active-tab");       // On clicking the Tab link shows the data related to it 
+}
+
+// JS Code For Side Menu Responsiveness
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = 0;
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzAQ9R4Fq6nxoVxajvhMbsss36bqeQ40bQLVusDQWtn_60Z7ZznPao4kJzC9NFMsTULkA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg2")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg2.innerHTML = "Message Sent Successfully"
+        setTimeout(function() {
+            msg2.innerHTML = ""
+        },3000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed('#text', {
+        strings: [
+            "Web Developer",
+            "MERN Stack Developer",
+            "Problem Solver"
+        ],
+        typeSpeed: 100,       // Speed of typing
+        backSpeed: 50,        // Speed of deleting
+        backDelay: 1000,      // Delay before starting to delete
+        startDelay: 500,      // Initial delay before typing starts
+        loop: true,           // Loop the typing
+        showCursor: true,     // Show blinking cursor
+        cursorChar: '|',      // Customize cursor character
+        smartBackspace: true  // Only erase what's necessary
+    });
+});
+
+</script>
+    
+</body>
+
+</html>
