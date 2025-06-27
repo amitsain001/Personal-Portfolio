@@ -512,11 +512,12 @@ nav .fas {
         
     }
     .header-txt h1 {
-        font-size: 25px;
+        font-size: 30px;
+        margin-top: 10px;
     }
 
     .header-txt p {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 800;
     }
 
@@ -526,11 +527,16 @@ nav .fas {
 
     #desc {
         font-size: 10px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 100%;
+    }
+
+    #about {
+        padding-top: 10px;
     }
 
     .social-icons a {
         color: #fff;
+        font-size: 35px;
     }
 
     .neon-frame {
