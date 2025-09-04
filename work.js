@@ -14,6 +14,10 @@ function opentab(tabname) {
     document.getElementById(tabname).classList.add("active-tab");       // On clicking the Tab link shows the data related to it 
 }
 
+function showPopup() {
+    alert("CV will be uploaded soon") ;
+}
+
 // JS Code For Side Menu Responsiveness
 
 
