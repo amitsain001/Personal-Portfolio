@@ -440,16 +440,24 @@ nav ul li a:hover::after {
 
 /* ----------------------Contact Section CSS Code ----------------------------------*/
 
-.contact {
+.contacts {
     background-color: #1b0a25;
 }
 
 .contact-left {
-    flex-basis: 35%;
+    position: relative ;
+    width: 40% ;
+}
+
+.row {
+    display: flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
 }
 
 .contact-right {
-    flex-basis: 60%;
+    position: relative ;
+    width: 40% ;
 }
 
 .contact-left p {
